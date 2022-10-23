@@ -1,0 +1,6 @@
+# reference
+example
+# build
+.vscode
+**/dist
+base/**/*.exe
