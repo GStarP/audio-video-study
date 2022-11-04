@@ -20,6 +20,7 @@ void rgb24_split(string path, int w, int h, int c)
     ofstream r_file("./dist/r_500x500_y.yuv", ios::out | ios::binary | ios::trunc);
     ofstream g_file("./dist/g_500x500_y.yuv", ios::out | ios::binary | ios::trunc);
     ofstream b_file("./dist/b_500x500_y.yuv", ios::out | ios::binary | ios::trunc);
+
     /**
      * read and write video data
      */
