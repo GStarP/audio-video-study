@@ -16,7 +16,7 @@ void pcm16le_reduce_voice()
     ofstream voice_reduced_file("./dist/voice_reduced.pcm", ios::out | ios::binary | ios::trunc);
 
     /**
-     * read and write video data
+     * read and write audio data
      */
     unsigned char *buffer = new unsigned char[4];
     while (!pcm_file.eof())

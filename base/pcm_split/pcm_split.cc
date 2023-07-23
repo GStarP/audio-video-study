@@ -17,7 +17,7 @@ void pcm16le_split()
     ofstream r_channel_file("./dist/r_channel.pcm", ios::out | ios::binary | ios::trunc);
 
     /**
-     * read and write video data
+     * read and write audio data
      */
     unsigned char *buffer = new unsigned char[4];
     while (!pcm_file.eof())

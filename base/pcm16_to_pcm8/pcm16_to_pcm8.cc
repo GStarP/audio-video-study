@@ -4,9 +4,9 @@
 using namespace std;
 
 /**
- * reduce pcm16le file's left channel voice
+ * pcm-16bit to pcm-8bit
  */
-void pcm16le_reduce_voice()
+void pcm16_to_pcm8()
 {
     /**
      * create fp
@@ -16,7 +16,7 @@ void pcm16le_reduce_voice()
     ofstream pcm8_file("./dist/pcm8.pcm", ios::out | ios::binary | ios::trunc);
 
     /**
-     * read and write video data
+     * read and write audio data
      */
     unsigned char *buffer = new unsigned char[4];
     int flag = 0;
@@ -48,5 +48,5 @@ void pcm16le_reduce_voice()
 
 int main()
 {
-    pcm16le_reduce_voice();
+    pcm16_to_pcm8();
 }
