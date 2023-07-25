@@ -1,6 +1,6 @@
-# ffmpeg-study
+# audio-video-study
 
-learn video&audio tech with [雷霄骅](https://blog.csdn.net/leixiaohua1020?type=blog)
+learn audio&video tech with [雷霄骅](https://blog.csdn.net/leixiaohua1020?type=blog)
 
 ## Quick Start
 
