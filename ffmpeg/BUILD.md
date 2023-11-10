@@ -4,7 +4,7 @@
 
 ```bash
 sudo apt update
-sudo apt install ffmpeg libavcodec-dev libavformat-dev libavutil-dev
+sudo apt install ffmpeg libavcodec-dev libavformat-dev libavutil-dev libavfilter-dev
 ```
 
 ## Build from source
